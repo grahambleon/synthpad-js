@@ -1,4 +1,4 @@
-#Synthpad
+# Synthpad
 
 [ ![Codeship Status for grahambleon/synthpad-js](https://app.codeship.com/projects/5b7212f0-5b01-0136-0403-3e8fb647d806/status?branch=master)](https://app.codeship.com/projects/295442)
 
