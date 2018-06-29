@@ -3,11 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.17.5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "concurrently": "^3.5.0"
+  },
   "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
