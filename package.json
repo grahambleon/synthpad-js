@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "express": "^4.16.2",
+    "material-ui": "^0.20.1",
     "nodemon": "^1.17.5"
   },
   "devDependencies": {
