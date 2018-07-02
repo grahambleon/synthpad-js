@@ -7,6 +7,6 @@ An interactive soundboard built with express/react so you can upload your sound 
 
 ### To get set up:
 
-* Clone the repo and run `yarn start` or `npm start` from the directory.
+* Clone the repo and run `yarn dev` from the directory.
 * Visit the site on `localhost:3000`.
-* `yarn test` or `npm test` to run the test suite.
+* `yarn test` to run the test suite.
