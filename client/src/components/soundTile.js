@@ -1,6 +1,6 @@
 import React from 'react';
 
-class soundTile extends React.Component {
+class SoundTile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -14,6 +14,12 @@ class soundTile extends React.Component {
   componentWillUnmount(){
     document.removeEventListener("keydown", this.hide, false);
   }
+
+  render() {
+    return (
+      <div></div>
+    )
+  }
 }
 
-export default soundTile;
+export default SoundTile;
