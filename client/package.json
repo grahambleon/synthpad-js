@@ -13,12 +13,6 @@
     "react-dropzone": "^4.2.9",
     "react-scripts": "1.1.4"
   },
-  "jest": {
-  "automock": false,
-  "setupFiles": [
-    "./src/setupTests.js"
-  ]
-},
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
