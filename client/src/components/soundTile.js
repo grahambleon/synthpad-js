@@ -1,6 +1,6 @@
 import React from 'react';
 
-class soundTile extends React.Component {
+class SoundTile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -16,4 +16,4 @@ class soundTile extends React.Component {
   }
 }
 
-export default soundTile;
+export default SoundTile;
