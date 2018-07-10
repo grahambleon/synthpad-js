@@ -14,6 +14,12 @@ class SoundTile extends React.Component {
   componentWillUnmount(){
     document.removeEventListener("keydown", this.hide, false);
   }
+
+  render() {
+    return (
+      <div></div>
+    )
+  }
 }
 
 export default SoundTile;
